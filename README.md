@@ -47,11 +47,11 @@ This is a full-stack Twitter-like application. The backend is built using Node.j
 
 ### Backend Setup
 
-1. Clone the backend repository:
+1. Clone the  repository:
 
    ```bash
    git clone https://github.com/SaiThanushreddy/SocialMediaPlatform.git
-   cd twitter-server
+   cd backend
    ```
 
 2. Install dependencies:
@@ -74,19 +74,17 @@ This is a full-stack Twitter-like application. The backend is built using Node.j
 4. Build and start the backend server:
 
    ```bash
-   npm run build
-   npm start
+    npm run dev
    ```
 
    The backend API will be running on `http://localhost:4000`.
 
 ### Frontend Setup
 
-1. Clone the frontend repository:
+1. Navigate to the frontend repository:
 
    ```bash
-   git clone <client-repo-url>
-   cd twitter-client
+     cd frontend
    ```
 
 2. Install dependencies:
@@ -95,7 +93,7 @@ This is a full-stack Twitter-like application. The backend is built using Node.j
    npm install
    ```
 
-3. Set up environment variables by creating a `.env.local` file in the root directory with the following:
+3. Set up environment variables by creating a `.env` file in the root directory with the following:
 
    ```plaintext
    NEXT_PUBLIC_GRAPHQL_ENDPOINT=http://localhost:4000/graphql
